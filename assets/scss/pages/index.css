@@ -1,0 +1,47 @@
+#page-index .wrapper .page-header.page-header-small {
+  min-height: 44vh;
+  max-height: 440px; }
+#page-index .wrapper .page-header .content-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  z-index: 2;
+  -webkit-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+  padding: 0 15px;
+  width: 100%;
+  max-width: 880px; }
+#page-index .wrapper .page-header .header-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 30vh;
+  max-height: 190px; }
+  #page-index .wrapper .page-header .header-box .subtitle {
+    font-weight: 500;
+    font-size: 1.88rem;
+    font-family: Helvetica;
+    color: white;
+    line-height: 2.25rem; }
+    #page-index .wrapper .page-header .header-box .subtitle span {
+      font-size: .9rem;
+      line-height: .9rem; }
+  #page-index .wrapper .page-header .header-box .desc {
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: PingFangSC-Regular;
+    color: white;
+    line-height: 2rem; }
+#page-index .wrapper .link-bar .row {
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap; }
+#page-index .wrapper .link-bar .info {
+  padding: 2rem 0 1.5rem 0; }
+  #page-index .wrapper .link-bar .info .info-title {
+    font-size: 0.88rem;
+    font-family: PingFangSC-Regular;
+    font-weight: 400;
+    color: #555555;
+    line-height: 1.38rem; }
+
+/*# sourceMappingURL=index.css.map */
