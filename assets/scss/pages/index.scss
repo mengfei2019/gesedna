@@ -1,6 +1,13 @@
 #page-index{
+  .navbar{
+    padding-top: 0;
+    padding-bottom: 0;
+    background: #FFFFFF;
+  }
 
   .wrapper{
+    padding-bottom: 4rem;
+
     .page-header{
       &.page-header-small{
         min-height: 44vh;
@@ -186,6 +193,38 @@
             }
           }
         }
+      }
+    }
+  }
+
+  .footer{
+    padding: .8rem 0;
+    height: 4rem;
+    background: rgba(255,255,255,1);
+    box-shadow: 0rem -0.03rem 0rem 0rem rgba(0,0,0,0.1);
+
+    .container{
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .footer-item{
+      width: 3rem;
+
+      a{
+        color: #000;
+      }
+
+      i{
+        font-size: 1.25rem;
+        color: #000;
+      }
+
+      p{
+        font-size: 0.75rem;
+        font-family: Helvetica;
+        color: rgba(0,0,0,0.85);
+        line-height: 1rem;
       }
     }
   }
