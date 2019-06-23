@@ -2,6 +2,12 @@
   padding-top: 0;
   padding-bottom: 0;
   background: #FFFFFF; }
+  #page-index .navbar .input-group {
+    margin-bottom: 0; }
+    #page-index .navbar .input-group .form-control {
+      border: 0.06rem solid #0085ff; }
+    #page-index .navbar .input-group .input-group-text {
+      border: 0.06rem solid #0085ff; }
 #page-index .wrapper {
   padding-bottom: 4rem; }
   #page-index .wrapper .page-header.page-header-small {

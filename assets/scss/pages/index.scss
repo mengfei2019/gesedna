@@ -3,6 +3,18 @@
     padding-top: 0;
     padding-bottom: 0;
     background: #FFFFFF;
+
+    .input-group{
+      margin-bottom: 0;
+
+      .form-control{
+        border: 0.06rem solid rgba(0,133,255,1);
+      }
+
+      .input-group-text{
+        border: 0.06rem solid rgba(0,133,255,1);
+      }
+    }
   }
 
   .wrapper{
