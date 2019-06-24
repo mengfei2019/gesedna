@@ -4,15 +4,60 @@
     padding-bottom: 0;
     background: #FFFFFF;
 
+    &.navbar-expand-lg>.container{
+      padding-right: 0;
+      padding-left: 0;
+      flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+    }
+
+    .navbar-translate {
+      width: 100%;
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      -webkit-transform: translate3d(0px, 0, 0);
+      transform: translate3d(0px, 0, 0);
+      transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    }
+
+    .navbar-right{
+      display: flex;
+      justify-content: space-between;
+    }
+
     .input-group{
+      margin-right: 1rem;
       margin-bottom: 0;
+      width: 14.94rem;
+      //border: 0.06rem solid rgba(0,133,255,1);
+      //border-radius: .25rem;
 
       .form-control{
-        border: 0.06rem solid rgba(0,133,255,1);
+        //border: 0.06rem solid rgba(0,133,255,1);
+        //border-right: 0 none;
       }
 
       .input-group-text{
-        border: 0.06rem solid rgba(0,133,255,1);
+        //border-right: 0.06rem solid rgba(0,133,255,1);
+      }
+    }
+
+    .login-box{
+      margin-top: .36rem;
+      width: 2rem;
+      height: 100%;
+      text-align: center;
+      color: rgba(0,133,255,1);
+      line-height: 1;
+
+      span{
+        display: inline-block;
+        width: 100%;
+        font-size: 0.63rem;
+        font-family: PingFangSC-Regular;
+        font-weight: 400;
       }
     }
   }
